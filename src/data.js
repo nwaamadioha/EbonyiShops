@@ -7,21 +7,21 @@ import placeholder from "./images/ebs.png"
 export const sliderItems = [
     {
         id: 1,
-        img: "https://ebonyishops.com/wp-content/uploads/2021/09/newadi-1.jpg",
+        img: placeholder,
         title: "JULY SALE",
         desc: "DON'T MISS OUT ON AWESOME PRODUCTS IN ABAKALIKI THIS SUMMER",
         bg: "f5fafd",
     },
     {
         id: 2,
-        img: "https://ebonyishops.com/wp-content/uploads/2021/09/newadi-1.jpg",
+        img: placeholder,
         title: "AUGUST SALE",
         desc: "DON'T MISS OUT ON AWESOME PRODUCTS IN ABAKALIKI THIS SUMMER",
         bg: "fcf1ed",
     },
     {
         id: 3,
-        img: "https://ebonyishops.com/wp-content/uploads/2021/09/newadi-1.jpg",
+        img:  placeholder,
         title: "FLASH SALE",
         desc: "DON'T MISS OUT ON AWESOME PRODUCTS IN ABAKALIKI THIS SUMMER",
         bg: "f5fafd",
@@ -34,16 +34,19 @@ export const categories = [
         id: 1,
         img:  cat1,
         title: "FEMALE CLOTHING",
+        cat: "women"
     },
     {
         id: 2,
         img:  cat2,
         title: "ELECTRONICS",
+        cat: "electronics"
     },
     {
         id: 3,
         img:  cat3,
         title: "FOOD ITEMS",
+        cat: "food"
     },
 ]
 

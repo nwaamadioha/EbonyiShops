@@ -1,10 +1,11 @@
 import React from "react"
 import styled from "styled-components"
 import {Email, Facebook, Instagram, Phone, Room, Twitter} from '@material-ui/icons';
-
+import { mobile } from "../responsive";
 
 const Container = styled.div`
    display: flex;
+   ${mobile({ flexDirection: "column"})};
 `
 
 const Left = styled.div`
@@ -12,6 +13,7 @@ const Left = styled.div`
     display: flex;
     flex-direction: column;
     padding: 20px;
+    ${mobile({ alignItems: "center"})};
 `
 const Logo = styled.h1`
 
@@ -38,7 +40,7 @@ const Center = styled.div`
     padding: 20px;
     display: flex;
     flex-direction: column;
-    
+    ${mobile({ display: "none"})};
    
 `
 const Title = styled.h3`
@@ -60,6 +62,9 @@ const ListItem = styled.li`
 const Right = styled.div`
     flex: 1;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    ${mobile({ backgroundColor: "#eee", alignItems: "center", justifyContent: "center"})};
 `
 
 const ContactItem = styled.div`
